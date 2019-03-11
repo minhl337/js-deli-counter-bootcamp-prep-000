@@ -13,6 +13,14 @@
 //     array.push(name);
 //     return 'Welcome, '+name+'. You are number '+array.length+' in line.'
 // }
+var totalcustomers=0;
+function takeANumber(array){
+  totalcustomers+=1;
+  array.push(totalcustomers);
+  return 'You are number: '+totalcustomers;
+  
+}
+customers=[3,4,5,6];
 
 // function nowServing(person){
 //   if(person.length===0){
