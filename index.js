@@ -9,10 +9,10 @@
 //   } return 'Welcome, '+y+'. You are number '+k+ ' in line.'
 // }
 
-function takeANumber(array,name){
-    array.push(name);
-    return 'Welcome, '+name+'. You are number '+array.length+' in line.'
-}
+// function takeANumber(array,name){
+//     array.push(name);
+//     return 'Welcome, '+name+'. You are number '+array.length+' in line.'
+// }
 
 // function nowServing(person){
 //   if(person.length===0){
